@@ -42,7 +42,8 @@ def findMinMax(arr):
     + Electrical Engineer , Electrical Engineer / automated electric drive
     + 2007 - 2013
 ## Languages
-* English - А2/B1
-* Belarussian - native speaker
-* Russian - native speaker
+* English - Pre-Intermediate / Intermediate
+* Belarussian - Upper-Intermediate
+* Russian - Native speaker
+* Ukranian - Pre-Intermediate
 
