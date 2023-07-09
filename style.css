@@ -1,9 +1,6 @@
-
-
 html {
   scroll-behavior: smooth; 
 }
-
 
 body {
   display: flex;
@@ -21,4 +18,148 @@ body {
   color: #2b0f0f;
 }
 
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+
+.header {
+  background-color: #000000;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff; 
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.section {
+  width: calc(50% - 30px);
+  border-bottom: 1px solid #680000;
+}
+
+.section-education,
+.section-english {
+  border-bottom: 1;
+}
+
+.section-title {
+  margin-bottom: 20px;  
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #421111;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #580d0d;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;  
+  text-transform: uppercase;
+}
+
+.main-title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #3a1212;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+
+.section-subtitle {
+  margin-top: 20px;
+  color: #5e3f22;
+  line-height: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.section-profile-logo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+.section-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  padding-left: 35px;
+}
+
+.section-item a {
+  text-decoration: none;
+  color: #3f3623;
+  transition: color 0.5s;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 35px;  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.github {
+  color: #fff;
+  text-decoration: none;
+  line-height: 45px;
+}
+ 
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
